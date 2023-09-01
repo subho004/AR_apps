@@ -1,0 +1,303 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 14229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/AR/FreeCodeCamp/Jet Turbine Simulation
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54486
+Successfully changed project path to: D:/AR/FreeCodeCamp/Jet Turbine Simulation
+D:/AR/FreeCodeCamp/Jet Turbine Simulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 66.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/AR/FreeCodeCamp/Jet Turbine Simulation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7114 MB
+    Driver:   31.0.21029.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004223 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (361ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\AR\FreeCodeCamp\Jet Turbine Simulation\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\AR\FreeCodeCamp\Jet Turbine Simulation\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3741 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (127.7 KB). Loaded Objects now: 4200.
+Memory consumption went from 128.9 MB to 128.8 MB.
+Total: 3.001000 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.488800 ms  DeleteObjects: 0.110600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84700.905522 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.015827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 168.596010 seconds.
+  path: Assets/Assets/Jet Engine/meshes
+  artifactKey: Guid(34a513534b98e5746b33707b21f34dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes using Guid(34a513534b98e5746b33707b21f34dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a94a7ca5627972261302f09fb82f5d') in 0.010812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010442 seconds.
+  path: Assets/Assets/Jet Engine/meshes/blades_0_1_0.asset
+  artifactKey: Guid(101c26105fec39541bc6ece96779b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/blades_0_1_0.asset using Guid(101c26105fec39541bc6ece96779b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61e3067a512b33e916ee7fd88d960a0') in 0.309753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Jet Engine/meshes/containers_small_0_11_0.asset
+  artifactKey: Guid(e31beafcfc0fa9b4f88b62cd4c5fd1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/containers_small_0_11_0.asset using Guid(e31beafcfc0fa9b4f88b62cd4c5fd1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a104382a1f9afb1707765ee8603fda') in 0.033361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Assets/Jet Engine/meshes/electronics_side_0_14_0.asset
+  artifactKey: Guid(049b6b9d5f9004f4d84d362dfefd74de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/electronics_side_0_14_0.asset using Guid(049b6b9d5f9004f4d84d362dfefd74de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c92f0b9504f7a7f277b0f08829155b4') in 0.017380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Jet Engine/meshes/flaps_ring_0_3_0.asset
+  artifactKey: Guid(af56cc9f9b4b3c84aa5179b022c7f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/flaps_ring_0_3_0.asset using Guid(af56cc9f9b4b3c84aa5179b022c7f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2602e4ca563d6107ed5894cc169c5c') in 0.020821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Jet Engine/meshes/fins_outside_0_5_0.asset
+  artifactKey: Guid(133e67a58c802f14f9223a021d5fc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/fins_outside_0_5_0.asset using Guid(133e67a58c802f14f9223a021d5fc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e4d6c7ba0595e75b1ee96ff5bf32b3') in 0.017814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Jet Engine/meshes/tubes.001_0_26_0.asset
+  artifactKey: Guid(85b6e1233af77174b9b487c016327708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/tubes.001_0_26_0.asset using Guid(85b6e1233af77174b9b487c016327708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cce4830ced1f895617a93779878f054') in 0.018931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/Jet Engine/meshes/pistons_0_12_0.asset
+  artifactKey: Guid(83eb29c2b2f1a8d47915f5cf2c2e869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/pistons_0_12_0.asset using Guid(83eb29c2b2f1a8d47915f5cf2c2e869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c421919cec218f604f5a8c3f55f35265') in 0.025318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets/Jet Engine/meshes/containers_0_6_0.asset
+  artifactKey: Guid(323d4e4db5b4a8942aede6d37b64e8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/containers_0_6_0.asset using Guid(323d4e4db5b4a8942aede6d37b64e8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f946593ddeec5f180206f9480ac290cc') in 0.023443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Jet Engine/meshes/tubes.002_0_27_0.asset
+  artifactKey: Guid(655673b43217c7f4ea7900b5af789fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/tubes.002_0_27_0.asset using Guid(655673b43217c7f4ea7900b5af789fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f53172d900dd90cc9e0b3f9dd6a2c5') in 0.014226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Jet Engine/meshes/plates_back_0_20_0.asset
+  artifactKey: Guid(5d44060777595cc48b6a690e6e5df667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/plates_back_0_20_0.asset using Guid(5d44060777595cc48b6a690e6e5df667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0cd965a7b8688d430744851441d0e6') in 0.017139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Jet Engine/meshes/tube_front_0_0_0.asset
+  artifactKey: Guid(70cc6dfd8aff2b04c810511a38ffe538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/tube_front_0_0_0.asset using Guid(70cc6dfd8aff2b04c810511a38ffe538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b2b43ddd9ededd4666f2b0cae7607e') in 0.019777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Jet Engine/meshes/name_plate_0_15_0.asset
+  artifactKey: Guid(5f2351c2d84927e4c97506d3b6c5d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/name_plate_0_15_0.asset using Guid(5f2351c2d84927e4c97506d3b6c5d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c12e9b1f08f89afe7b5ae844c30161e') in 0.015757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Jet Engine/meshes/tube_middle_0_24_0.asset
+  artifactKey: Guid(353714a95a96280478e043268669f81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/tube_middle_0_24_0.asset using Guid(353714a95a96280478e043268669f81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a18089e6c00ab431bb74a42cec44a76') in 0.016279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Jet Engine/meshes/electonics_side_1_0_9_0.asset
+  artifactKey: Guid(9feb5ed841bd163489982386d2a8f4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/electonics_side_1_0_9_0.asset using Guid(9feb5ed841bd163489982386d2a8f4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3624b815d65ca075ea162b5b15a67f2') in 0.017598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Jet Engine/meshes/clamps_0_21_0.asset
+  artifactKey: Guid(4d2c7d7a3ea6fe04090127e1a861a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/clamps_0_21_0.asset using Guid(4d2c7d7a3ea6fe04090127e1a861a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c84bc01135c63c7be372472c1f653e') in 0.018435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Jet Engine/meshes/plates_0_22_0.asset
+  artifactKey: Guid(9522088123e8e7f4e8b8d8475a7ba0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/plates_0_22_0.asset using Guid(9522088123e8e7f4e8b8d8475a7ba0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e782d8a424c923ec255a6cb94dfe51d9') in 0.017618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Jet Engine/meshes/tube_0_25_0.asset
+  artifactKey: Guid(5f46815ebd83bc249b4acae932bdffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/tube_0_25_0.asset using Guid(5f46815ebd83bc249b4acae932bdffb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be78b073e2adcf607c3887007147f855') in 0.017741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/Jet Engine/meshes/grid_0_18_0.asset
+  artifactKey: Guid(4cf291bee35434f44a2a9dc052a9bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/grid_0_18_0.asset using Guid(4cf291bee35434f44a2a9dc052a9bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc07c072267320938ec4a9d9da6ff20') in 0.019648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Jet Engine/meshes/flaps_stabiliser_0_4_0.asset
+  artifactKey: Guid(ca434df5c11c68147bf6c5bfba952259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/flaps_stabiliser_0_4_0.asset using Guid(ca434df5c11c68147bf6c5bfba952259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab70724a1121e27e9e383f12370e2f2') in 0.016739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Jet Engine/meshes/containers_spacers_0_7_0.asset
+  artifactKey: Guid(c39bf95ee2ddec344a0d9a3bc8460def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Jet Engine/meshes/containers_spacers_0_7_0.asset using Guid(c39bf95ee2ddec344a0d9a3bc8460def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566fde537b6422194a8e777f0715c7c1') in 0.024584 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
